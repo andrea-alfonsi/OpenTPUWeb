@@ -1,0 +1,37 @@
+.ModelsManager {
+  width: 100%;
+  height:100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+
+}
+
+.ModelsManager > nav {
+  height: 100%;
+  width: clamp(250px, 10%, 300px);
+  box-sizing: border-box;
+  border-right: solid 1px #ccc;
+}
+
+.ModelsManager > nav > ul > li{
+  padding: 8px 0;
+  user-select: none;
+}
+
+.ModelsManager > nav > ul > li:hover {
+  cursor: pointer;
+  backdrop-filter: brightness(95%);
+}
+
+.ModelsManager > div {
+  height: 100%;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+  
